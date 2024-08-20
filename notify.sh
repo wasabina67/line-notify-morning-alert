@@ -3,7 +3,7 @@
 # source .env
 
 MESSAGE="Morning alert!"
-IMAGE_FILE="./images/sample.jpg"
+IMAGE_FILE="./images/sample3.jpg"
 URL="https://notify-api.line.me/api/notify"
 
 curl -X POST -H "Authorization: Bearer $ACCESS_TOKEN" \
