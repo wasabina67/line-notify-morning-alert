@@ -2,7 +2,7 @@ name: morning-alert
 
 on:
   schedule:
-    - cron: '30 13 * * *'
+    - cron: '00 23 * * *'
   workflow_dispatch:
 
 jobs:
