@@ -1,4 +1,4 @@
-name: sleep-alert
+name: morning-alert
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  sleep-alert:
+  morning-alert:
     runs-on: ubuntu-latest
 
     steps:
